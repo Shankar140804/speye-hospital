@@ -1,0 +1,13 @@
+{
+    // F5 opens the site straight from the file, so no server needs to be running.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open S.P.Eye website",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
